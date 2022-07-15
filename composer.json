@@ -1,5 +1,6 @@
 {
     "name": "hexlet/code",
+    "bin": ["bin/brain-games"],
     "type": "project",
     "autoload": {
         "psr-4": {
@@ -12,5 +13,7 @@
             "email": "timtimoha@yandex.ru"
         }
     ],
+    "description": "Artem Pokhiliuk project",
+    "license": "proprietary",
     "require": {}
 }
