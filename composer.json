@@ -3,6 +3,9 @@
     "bin": ["bin/brain-games"],
     "type": "project",
     "autoload": {
+        "files": [
+            "src/Cli.php"
+        ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         }
@@ -15,5 +18,7 @@
     ],
     "description": "Artem Pokhiliuk project",
     "license": "proprietary",
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.14"
+    }
 }
