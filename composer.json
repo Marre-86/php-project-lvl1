@@ -5,7 +5,8 @@
     "type": "project",
     "autoload": {
         "files": ["src/Cli.php",
-            "src/Games.php"
+            "src/Games.php",
+            "src/Engine.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
