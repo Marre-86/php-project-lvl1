@@ -1,12 +1,14 @@
 {
     "name": "hexlet/code",
     "bin": ["bin/brain-games",
-             "bin/brain-even"],
+             "bin/brain-even",
+             "bin/brain-calc"],
     "type": "project",
     "autoload": {
         "files": ["src/Cli.php",
-            "src/Games.php",
-            "src/Engine.php"
+            "src/Engine.php",
+            "src/Games/even.php",
+            "src/Games/calc.php"
         ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"

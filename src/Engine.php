@@ -5,6 +5,7 @@ namespace BrainGames\Engine;
 use function cli\line;
 use function cli\prompt;
 use function BrainGames\Games\evenIteration;
+use function BrainGames\Games\calcIteration;
 
 function greeting()
 {
@@ -26,6 +27,10 @@ function gameProcess(string $gameName)
         switch ($gameName) {
             case 'even':
                 $result = evenIteration();
+                break;
+            case 'calc':
+                $result = calcIteration();
+                break;
         }
         if ($result === "Mistake") {
             line('Let\'s try again, %s!', $name);
