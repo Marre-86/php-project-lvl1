@@ -5,7 +5,7 @@
 ### Brain-even game process
 [![asciicast](https://asciinema.org/a/mnzkWVP1bi0dDD1ve7LH8glYp.png)](https://asciinema.org/a/mnzkWVP1bi0dDD1ve7LH8glYp)
 ### Brain-calc game process (win)
-[![asciicast](https://asciinema.org/connect/aacb6da1-f6e3-4415-88a1-f30f9629746e.png)](https://asciinema.org/connect/aacb6da1-f6e3-4415-88a1-f30f9629746e)
+[![asciicast](https://asciinema.org/a/btcsdfZ2fR6sZXf2a4xHbih3i.png)](https://asciinema.org/a/btcsdfZ2fR6sZXf2a4xHbih3i)
 ### Brain-calc game process (lose)
-[![asciicast](https://asciinema.org/connect/aacb6da1-f6e3-4415-88a1-f30f9629746e.png)](https://asciinema.org/connect/aacb6da1-f6e3-4415-88a1-f30f9629746e)
+[![asciicast](https://asciinema.org/a/4E38vrffMQICWdWj7RtO7wEC4.png)](https://asciinema.org/a/4E38vrffMQICWdWj7RtO7wEC4)
 
