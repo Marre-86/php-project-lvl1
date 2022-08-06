@@ -7,6 +7,7 @@ use function cli\prompt;
 use function BrainGames\Games\evenIteration;
 use function BrainGames\Games\calcIteration;
 use function BrainGames\Games\gcdIteration;
+use function BrainGames\Games\progressionIteration;
 
 function greeting()
 {
@@ -34,6 +35,9 @@ function gameProcess(string $gameName)
                 break;
             case 'gcd':
                 $result = gcdIteration();
+                break;
+            case 'progression':
+                $result = progressionIteration();
                 break;
         }
         if ($result === "Mistake") {

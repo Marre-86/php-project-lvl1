@@ -12,4 +12,8 @@
 [![asciicast](https://asciinema.org/a/ZnfnbH4ZOcWDBNOcSMHiekbUz.png)](https://asciinema.org/a/ZnfnbH4ZOcWDBNOcSMHiekbUz)
 ### Brain-gcd game process (lose)
 [![asciicast](https://asciinema.org/a/XYCOtkBWFh1dObVBt0Cym6WWN.png)](https://asciinema.org/a/XYCOtkBWFh1dObVBt0Cym6WWN)
+h### Brain-progression game process (win)
+[![asciicast](https://asciinema.org/a/MBqWA5PBDhtzGqs7VyOp3RFeV.png)](https://asciinema.org/a/MBqWA5PBDhtzGqs7VyOp3RFeV)
+### Brain-gcd game process (lose)
+[![asciicast](https://asciinema.org/a/qwaovqJFfvSlAbP2KkMm0cv7l.png)](https://asciinema.org/a/qwaovqJFfvSlAbP2KkMm0cv7l)
 
