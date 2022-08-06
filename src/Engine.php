@@ -6,6 +6,7 @@ use function cli\line;
 use function cli\prompt;
 use function BrainGames\Games\evenIteration;
 use function BrainGames\Games\calcIteration;
+use function BrainGames\Games\gcdIteration;
 
 function greeting()
 {
@@ -30,6 +31,9 @@ function gameProcess(string $gameName)
                 break;
             case 'calc':
                 $result = calcIteration();
+                break;
+            case 'gcd':
+                $result = gcdIteration();
                 break;
         }
         if ($result === "Mistake") {

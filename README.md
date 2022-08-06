@@ -8,4 +8,8 @@
 [![asciicast](https://asciinema.org/a/btcsdfZ2fR6sZXf2a4xHbih3i.png)](https://asciinema.org/a/btcsdfZ2fR6sZXf2a4xHbih3i)
 ### Brain-calc game process (lose)
 [![asciicast](https://asciinema.org/a/4E38vrffMQICWdWj7RtO7wEC4.png)](https://asciinema.org/a/4E38vrffMQICWdWj7RtO7wEC4)
+### Brain-gcd game process (win)
+[![asciicast](https://asciinema.org/a/ZnfnbH4ZOcWDBNOcSMHiekbUz.png)](https://asciinema.org/a/ZnfnbH4ZOcWDBNOcSMHiekbUz)
+### Brain-gcd game process (lose)
+[![asciicast](https://asciinema.org/a/XYCOtkBWFh1dObVBt0Cym6WWN.png)](https://asciinema.org/a/XYCOtkBWFh1dObVBt0Cym6WWN)
 
