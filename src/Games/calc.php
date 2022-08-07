@@ -41,5 +41,5 @@ function calc()
 {
     greeting();
     task('What is the result of the expression?');
-    gameProcess('calc');
+    gameProcess('calcIteration');
 }

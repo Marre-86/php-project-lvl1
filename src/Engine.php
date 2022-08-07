@@ -4,11 +4,6 @@ namespace BrainGames\Engine;
 
 use function cli\line;
 use function cli\prompt;
-use function BrainGames\Games\evenIteration;
-use function BrainGames\Games\calcIteration;
-use function BrainGames\Games\gcdIteration;
-use function BrainGames\Games\progressionIteration;
-use function BrainGames\Games\primeIteration;
 
 function greeting()
 {
@@ -27,23 +22,7 @@ function gameProcess(string $gameName)
 {
     global $name;
     for ($rightAnswerCount = 1; $rightAnswerCount < 4; $rightAnswerCount++) {
-        switch ($gameName) {
-            case 'even':
-                $result = evenIteration();
-                break;
-            case 'calc':
-                $result = calcIteration();
-                break;
-            case 'gcd':
-                $result = gcdIteration();
-                break;
-            case 'progression':
-                $result = progressionIteration();
-                break;
-            case 'prime':
-                $result = primeIteration();
-                break;
-        }
+        $result = call_user_func('BrainGames\Games\\' . $gameName);
         if ($result === "Mistake") {
             line('Let\'s try again, %s!', $name);
             break;

@@ -30,5 +30,5 @@ function progression()
 {
     greeting();
     task('What number is missing in the progression?');
-    gameProcess('progression');
+    gameProcess('progressionIteration');
 }

@@ -38,5 +38,5 @@ function gcd()
 {
     greeting();
     task('Find the greatest common divisor of given numbers.');
-    gameProcess('gcd');
+    gameProcess('gcdIteration');
 }

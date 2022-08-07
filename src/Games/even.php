@@ -25,5 +25,5 @@ function even()
 {
     greeting();
     task('Answer "yes" if the number is even, otherwise answer "no".');
-    gameProcess('even');
+    gameProcess('evenIteration');
 }
