@@ -8,6 +8,7 @@ use function BrainGames\Games\evenIteration;
 use function BrainGames\Games\calcIteration;
 use function BrainGames\Games\gcdIteration;
 use function BrainGames\Games\progressionIteration;
+use function BrainGames\Games\primeIteration;
 
 function greeting()
 {
@@ -38,6 +39,9 @@ function gameProcess(string $gameName)
                 break;
             case 'progression':
                 $result = progressionIteration();
+                break;
+            case 'prime':
+                $result = primeIteration();
                 break;
         }
         if ($result === "Mistake") {
