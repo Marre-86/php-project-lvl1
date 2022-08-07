@@ -8,7 +8,7 @@ use function BrainGames\Engine\greeting;
 use function BrainGames\Engine\task;
 use function BrainGames\Engine\gameProcess;
 
-function gcdCalculating($num1, $num2)
+function gcdCalculating(int $num1, int $num2)
 {
     $smallerValue = min($num1, $num2);
     while (true) {

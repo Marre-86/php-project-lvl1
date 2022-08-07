@@ -8,7 +8,7 @@ use function BrainGames\Engine\greeting;
 use function BrainGames\Engine\task;
 use function BrainGames\Engine\gameProcess;
 
-function isPrime($num)
+function isPrime(int $num)
 {
     for ($i = 2; $i <= sqrt($num); $i++) {
         if (($num % $i) === 0) {
