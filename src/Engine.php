@@ -29,7 +29,7 @@ function gameProcess(string $gameName)
         }
         line('Correct!');
         if ($rightAnswerCount === 3) {
-            line('Congratulations,  %s!', $name);
+            line('Congratulations, %s!', $name);
         }
     }
 }
