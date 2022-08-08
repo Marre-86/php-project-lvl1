@@ -13,6 +13,7 @@ function calcIteration()
     $randNumber1 = rand(0, 10);
     $randNumber2 = rand(0, 10);
     $randSignIndex = rand(1, 3);
+    $randSign = '';
     switch ($randSignIndex) {
         case 1:
             $randSign = '+';
