@@ -22,7 +22,9 @@ function gameProcess(string $gameName)
 {
     global $name;
     for ($rightAnswerCount = 1; $rightAnswerCount < 4; $rightAnswerCount++) {
-        $result = call_user_func('BrainGames\Games\\' . $gameName);
+        if (is_callable('BrainGames\Games\\' . $gameName)) {
+            $result = call_user_func('BrainGames\Games\\' . $gameName);
+        }
         if ($result === "Mistake") {
             line('Let\'s try again, %s!', $name);
             break;
