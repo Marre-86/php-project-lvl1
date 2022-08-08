@@ -14,6 +14,7 @@ function calcIteration()
     $randNumber2 = rand(0, 10);
     $randSignIndex = rand(1, 3);
     $randSign = '';
+    $rightAnswer = '';
     switch ($randSignIndex) {
         case 1:
             $randSign = '+';
