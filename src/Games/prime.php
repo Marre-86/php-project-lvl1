@@ -20,7 +20,7 @@ function isPrime(int $num)
 
 function primeIteration()
 {
-    $randNumber = rand(1, 100);
+    $randNumber = rand(2, 100);
     $rightAnswer = isPrime($randNumber);
     line("Question: %d", $randNumber);
     $answer = prompt("Your answer");
