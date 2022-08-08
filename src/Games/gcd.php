@@ -21,8 +21,8 @@ function gcdCalculating(int $num1, int $num2)
 
 function gcdIteration()
 {
-    $randNumber1 = rand(0, 100);
-    $randNumber2 = rand(0, 100);
+    $randNumber1 = rand(1, 100);
+    $randNumber2 = rand(1, 100);
     $rightAnswer = gcdCalculating($randNumber1, $randNumber2);
     line("Question: %d %d", $randNumber1, $randNumber2);
     $answer = prompt("Your answer");
